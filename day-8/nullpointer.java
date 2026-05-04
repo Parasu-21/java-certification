@@ -1,8 +1,8 @@
 class nullpointer {
     public static void main(String[] args){
-        String str = null;
+        String studentName  = null;
         try {
-            System.out.println(str.length());
+            System.out.println(studentName .length());
         } catch (NullPointerException e) {
             System.out.println(e);
         }
